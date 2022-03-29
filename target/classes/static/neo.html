@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="./loader.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="http://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png"/>
+        <script src='https://cdn.plot.ly/plotly-2.9.0.min.js'></script>
+        <title>API NEO NASA</title>
+    </head>
+    <body>
+
+        <div class="loader" id="loader"></div>
+        <br>
+        <br>
+        <div class="sm-12 row offset-sm-5" id="date_finder">
+            <div class="col-sm-4">
+                <br>
+                <div class="panel panel-primary">
+                <div class="panel panel-header" align="center"><h4 class="fw-bolder">Date Changer</h4></div>
+                    <div class="panel-body">
+                            <div class="form-group">
+                                <label for="inputName" class="col-sm-4 col-form-label">Start Date</label>
+                                <input type="text" required class="form-control" id="start_date" placeholder="YYYY-MM-DD Format">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="inputName" class="col-sm-4 col-form-label">End Date</label>
+                                <input type="text" required class="form-control" id="end_date" placeholder="YYYY-MM-DD Format">
+                            </div>
+                            <br>
+                            <button onclick="newData()" class="btn btn-primary" type="submit">Change Date</button>
+                            <br>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class='container'>
+            <div class='alert-danger alert-dismissible' id='error'></div>
+        </div>
+        <div id='myDiv'></div>
+        <br>
+        <br>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./neo.js"></script>
+    </body>
+</html>
