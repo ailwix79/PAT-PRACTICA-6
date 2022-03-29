@@ -1,15 +1,15 @@
-# PRACTICA-5
-PAT PRACTICA 5
+# PRACTICA-6
+PAT PRACTICA 6
 
 ## ¿Como probar en el cloud?
 
 [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ailwix79/PRACTICA-5)
 
-# PAT-PRACTICA-5
-Practica 5 PAT Alejandro López
+# PAT-PRACTICA-6
+Practica 6 PAT Alejandro López
 
 # DESCRIPCIÓN
-En esta práctica se empleará el API de la NASA. Mismo concepto que la práctica 4 pero esta vez implementado con Springboot.
+En esta práctica se empleará el API de la NASA. Se realizan los Test del código desarrollado en la práctica 5.
 
 # INDEX
 Página de inicio, desde aquí se pueden seleccionar el API deseado.
@@ -32,3 +32,4 @@ Este API incluye manejo de errores, lo bueno de este API es que devuelve errores
 
 - Logging. Estado de la carga de datos. Permite saber si todo va bien.
 - Actuator. Checkear el estado de la página, métricas, logs... Entrando en la URL localhost:8080/actuator se pueden observar todos los componentes habilitados de Actuator y acceder a los mismos. Se adjunta una imagen con la evidencia.
+- Empleo de MockBeans.
