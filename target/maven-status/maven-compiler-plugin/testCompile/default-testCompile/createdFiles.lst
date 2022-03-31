@@ -1,4 +1,3 @@
-com\main\practica5\services\ApodImpTest.class
-com\main\practica5\Practica5ApplicationTests.class
-com\main\practica5\controller\AppControllerTest.class
-com\main\practica5\services\NeoImpTest.class
+com\icai\practicas\MainApplicationTests.class
+com\icai\practicas\model\TelefonoTest.class
+com\icai\practicas\model\DNItest.class
