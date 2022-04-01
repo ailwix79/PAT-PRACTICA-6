@@ -1,3 +1,4 @@
 com\icai\practicas\MainApplicationTests.class
 com\icai\practicas\model\TelefonoTest.class
 com\icai\practicas\model\DNItest.class
+com\icai\practicas\controller\ProcessControllerTest.class

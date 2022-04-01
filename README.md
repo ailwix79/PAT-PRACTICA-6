@@ -3,33 +3,21 @@ PAT PRACTICA 6
 
 ## ¿Como probar en el cloud?
 
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ailwix79/PRACTICA-5)
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ailwix79/PRACTICA-6)
 
-# PAT-PRACTICA-6
-Practica 6 PAT Alejandro López
+# TESTING DE CLASES DADAS
+Se emplean estructuras complejas e iteraciones para realizar diversas pruebas de las clases pedidas.
 
-# DESCRIPCIÓN
-En esta práctica se empleará el API de la NASA. Se realizan los Test del código desarrollado en la práctica 5.
+En la clase DNI.java se han realizado las siguientes pruebas.
+- Prueba de correcto funcionamiento. Se prueban diversos DNIs correctos
+- Prueba de detección de DNIs inválidos
+- Prueba de detección de DNIs con letra incorrecta
+- Prueba de detección de DNIs de estructura incorrecta
 
-# INDEX
-Página de inicio, desde aquí se pueden seleccionar el API deseado.
+En la clase Telefono.java se han realizado los tests:
+- Prueba de funcionamiento correcto. Se prueban diferentes teléfonos.
 
-# APOD NASA API
-Este API obtiene la fotografía del día, junto con una descripción. Realmente esto es un manejo de APIs básico, donde simplemente se
-realiza un fetch asíncrono.
+En la clase ProcessController.java Se prueban los dos endpoints con diferentes datos correctos e incorrectos.
 
-# NEO NASA API
-Objetos más cercanos a la Tierra. Se han formateado los datos para presentarlos en un scatter plot. En el propio scatter plot se pueden
-realizar diversas acciones.
-
-- Manipulación del gráfico mediante zoom. recortes...
-- Descargar una captura de los datos.
-- Introducir fechas de búsqueda que no sean las actuales.
-
-Este API incluye manejo de errores, lo bueno de este API es que devuelve errores muy verbales, que permiten saber al usuario que está ocurriendo.
-
-## Elementos extra
-
-- Logging. Estado de la carga de datos. Permite saber si todo va bien.
-- Actuator. Checkear el estado de la página, métricas, logs... Entrando en la URL localhost:8080/actuator se pueden observar todos los componentes habilitados de Actuator y acceder a los mismos. Se adjunta una imagen con la evidencia.
-- Empleo de MockBeans.
+# TRABAJO EXTRA
+Como trabajo extra se han realizado testing de la práctica 5, también presente en este repo en la carpeta "TRABAJO EXTRA"
