@@ -86,8 +86,9 @@ public class ProcessControllerTest {
         for (Map.Entry<ProcessController.DataRequest,HttpStatus> data:
              dataFirstTest.entrySet()) {
                 HttpEntity<ProcessController.DataRequest> request = new HttpEntity<>(data.getKey(), headers);
-                ResponseEntity<String> result = this.restTemplate.postForEntity(address, request, String.class);
+                ResponseEntity<ProcessController.DataResponse> result = this.restTemplate.postForEntity(address, request, ProcessController.DataResponse.class);
                 then(result.getStatusCode()).isEqualTo(data.getValue());
+                then((result.getBody())).isEqualTo(null);       // Method returns null body
         }
     }
 
@@ -112,7 +113,7 @@ public class ProcessControllerTest {
                 HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(data.getKey(), headers);
                 ResponseEntity<String> result = this.restTemplate.postForEntity(address, request, String.class);
                 then(result.getStatusCode()).isEqualTo(data.getValue());
-                //then(result.getBody().contains(expectedMessage1) || result.getBody().contains(expectedMessage2));
+                then((result.getBody())).isEqualTo(null);       // Method returns null body
         }
     }
 }
