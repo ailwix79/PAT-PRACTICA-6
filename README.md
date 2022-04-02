@@ -20,4 +20,4 @@ En la clase Telefono.java se han realizado los tests:
 En la clase ProcessController.java Se prueban los dos endpoints con diferentes datos correctos e incorrectos.
 
 # TRABAJO EXTRA
-Como trabajo extra se han realizado testing de la práctica 5, también presente en este repo en la carpeta "TRABAJO EXTRA"
+Como trabajo extra se han realizado testing de la práctica 5, se encuentra en este repo https://github.com/ailwix79/PAT-PRACTICA-5-TESTING
