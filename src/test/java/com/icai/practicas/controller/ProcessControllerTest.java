@@ -24,37 +24,6 @@ import static org.assertj.core.api.BDDAssertions.then;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class ProcessControllerTest {
 
-    private static final String expectedMessage1 =
-            """
-            <!doctype>
-            <html>
-                <head>
-                    <meta charset="UTF-8">
-                    <title>Response 1</title>
-                </head>
-                <body>
-                    <h1>Muchas gracias por enviar los datos</h1>
-                    <a href="/">Volver</a>
-                </body>
-            </html>
-            """;
-
-    private static final String expectedMessage2 =
-            """
-            <!doctype>
-            <html>
-                <head>
-                    <meta charset="UTF-8">
-                    <title>Response 1</title>
-                </head>
-                <body>
-                    <h1>Hemos tenido un problema con su solicitud.</h1>
-                    <p>Revise los datos introducidos</p>
-                    <a href="javascript:history.back()">Volver</a>
-                </body>
-            </html>
-            """;
-
     @LocalServerPort
     private int port;
 
