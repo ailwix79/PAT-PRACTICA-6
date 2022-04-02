@@ -3,7 +3,7 @@ PAT PRACTICA 6
 
 ## ¿Como probar en el cloud?
 
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ailwix79/PRACTICA-6)
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ailwix79/PAT-PRACTICA-6)
 
 # TESTING DE CLASES DADAS
 Se emplean estructuras complejas e iteraciones para realizar diversas pruebas de las clases pedidas.
